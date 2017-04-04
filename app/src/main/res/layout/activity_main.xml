@@ -6,13 +6,48 @@
     android:layout_height="match_parent"
     tools:context="kr.hs.emirim.wkddbwls145.chasooyeon.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="368dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="펜타곤 신곡 나왔을때 "
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="블락비 신곡 나왔을때"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="펜타곤 진호보다가 눈 마주쳤을때"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="그냥 눈 마주쳤을때"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="그냥 눈 마주쳤을때2"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="324dp" />
 
 </android.support.constraint.ConstraintLayout>
