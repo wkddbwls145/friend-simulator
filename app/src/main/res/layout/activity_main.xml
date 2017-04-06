@@ -29,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onclick"
         android:text="블락비 신곡 나왔을때" />
 
     <Button
@@ -36,6 +37,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onclick"
         android:text="펜타곤 진호보다가 눈 마주쳤을때" />
 
     <Button
@@ -43,6 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onclick"
         android:text="그냥 눈 마주쳤을때" />
 
     <Button
@@ -50,6 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="3dp"
+        android:onClick="onclick"
         android:text="그냥 눈 마주쳤을때2" />
 
 </LinearLayout>
