@@ -16,6 +16,12 @@
         android:gravity="center"
         android:text="차수 시뮬레이터" />
 
+        <ImageView
+            android:id="@+id/friend_Visual"
+            android:layout_gravity="center"
+            android:src="@drawable/17886808_1865844340350603_1984350496_o"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
